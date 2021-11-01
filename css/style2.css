@@ -1,17 +1,38 @@
-.pembungkus{
-    width : 800px;
-    margin : auto;
+body { 
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
 }
-.judul {
-    color : royalblue;
-    margin : 40px;
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+h1{
     text-align: center;
+    padding-top: 15px;
 }
-.tombol {
-    background-color: orangered;
-    color : white;
-    width : 100%;
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
 }
-.sign {
-    color : orangered;
+form input {
+    width:100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input [ type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:green ;
+    font-size: 20px;
+}
+p{
+    color: black;
 }
